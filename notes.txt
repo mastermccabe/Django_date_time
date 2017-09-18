@@ -1,0 +1,11 @@
+# Need to be in same directory as manage.py file
+> python manage.py makemigrations
+> python manage.py migrate
+
+
+  request.session # It's a dictionary, so you can attach key/value pairs
+
+request.session['name'] = request.POST['name']
+request.session['counter'] = 100
+
+{{request.session.name}}
